@@ -1,0 +1,29 @@
+node_modules
+.expo/
+web-build/
+dist/
+build/
+*.zip
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Firebase client configuration files (download locally from Firebase Console)
+google-services.json
+android/app/google-services.json
+
+# Android and signing artifacts
+android/.gradle/
+android/local.properties
+android/app/debug.keystore
+*.jks
+*.keystore
+*.p12
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

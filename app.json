@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "SiteBook",
+    "slug": "sitebook",
+    "owner": "mohan14s-organization",
+    "version": "1.0.1",
+    "scheme": "sitebook",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B4FE4"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1B4FE4"
+      },
+      "package": "com.sitebook.app",
+      "googleServicesFile": "./google-services.json",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "sitebook"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "googleAuth": {
+        "iosClientId": "YOUR_IOS_CLIENT_ID.apps.googleusercontent.com",
+        "webClientId": "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com"
+      },
+      "eas": {
+        "projectId": "e4c73e8d-3061-44cf-b8f7-4c43be781204"
+      }
+    }
+  }
+}
